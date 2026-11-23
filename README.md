@@ -71,3 +71,7 @@ CSP stricte (`default-src 'self'`, images `self`/`data:`/`blob:`, pas de connexi
 - **Microsoft Store (MSIX)** : le Store signe gratuitement le MSIX. Tauri ne produit pas de MSIX nativement ; il faudra l'outillage `winapp` de Microsoft ou `makeappx` à partir de l'exécutable construit.
 - **Flatpak** pour Linux.
 - **Mises à jour** : plugin updater de Tauri avec une clé de signature propre. Non activé : l'application n'a actuellement aucun accès réseau.
+
+## Licence
+
+Tous droits réservés. Le code est public pour être consulté ; toute copie, modification, redistribution ou réutilisation exige l'accord écrit du titulaire. Voir [`LICENSE`](LICENSE).
