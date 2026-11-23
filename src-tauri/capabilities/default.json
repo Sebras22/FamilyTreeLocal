@@ -1,0 +1,12 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capacités de la fenêtre principale : événements et fermeture contrôlée, pour enregistrer la bibliothèque avant de quitter. Les commandes read_library, write_library et backup_library sont propres à l'application.",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "core:window:allow-destroy"
+  ]
+}

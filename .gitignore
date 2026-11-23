@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+!.env.demo
+.vscode/
+.idea/
+
+src-tauri/target/
+src-tauri/gen/
+msix/staging/
+msix/out/
+
+*.md
+!README.md
